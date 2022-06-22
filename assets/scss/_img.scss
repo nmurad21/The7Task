@@ -1,0 +1,32 @@
+#design{
+    .img{
+        background-image: url(/assets/images/slider/big1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .design-text{
+            color: white;
+            p{
+                margin-top: 30px;
+            }
+            button{
+                margin-top: 30px;
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+                border-color: white;
+                border-radius: 15px;
+                padding: 10px 15px;
+                &:hover{
+                    background-color: rgb(38, 175, 38);
+                    border-color: rgb(38, 175, 38);
+                    transition: 0.3s linear;
+                }
+            }
+        }
+    }
+}

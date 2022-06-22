@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    width: 100%;
+    .nav {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        align-items: center;
+    
+            .the7 {
+                a{
+                    font-size: 37px;
+                }
+            }
+          
+            ul {
+              display: flex;
+              justify-content: space-around;
+                margin: 15px;
+              li {
+                  margin-left: 20px;
+                list-style: none;
+                a {
+                  text-decoration: none;
+                  color: white;
+                  font-size: 14px;
+                  &:hover{
+                      color: rgb(38, 175, 38);
+                      transition: 0.6s;
+                  }
+                }
+              }
+            }
+    }
+}
